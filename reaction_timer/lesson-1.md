@@ -21,12 +21,12 @@ Students learn:
 * 15 [copies of the cheat sheet](../cheatsheet.html),
 * Pens and paper.
 
-## What do we need for a reaction timer? : 25 minutes
+## What do we need for a reaction timer? : 20 minutes
 
 Discuss with the class how the software will work. 
 We'll need to print something on the screen and then time how long it takes for the subject to react to it.
 
-## Pseudo code
+### Pseudo code
 
 Tell the students to get into groups of 4 and use the program cards to lay out a program sequence (from top to bottom).
 They'll need to use the blank ones to add their own variable names or extra codes.
@@ -66,7 +66,7 @@ It should end up something like this:
 #print out how long they took
 ~~~
 
-## Build reaction timer software : 30 minutes
+## Build reaction timer software : 25 minutes
 
 Students work in pairs to convert the comments into Python code. They can reference any of the programs they've saved so far. They should write the Python below the comment, and leave the comment in for reference.
 
@@ -77,6 +77,8 @@ Ask them to start at the top and to test each line of code at a time by saving a
 ***reaction.py
 
 ### Extension activity
+
+We make the program better by printing better instructions and nicely formatting the output. Perhaps even adding a conditional to print out a congratulation or insult.
 
 We don't get a great representation of reaction time without making multiple measurements (just like in science). Find a way to repeat the test 3 times and make an average before printing a final score.
 
