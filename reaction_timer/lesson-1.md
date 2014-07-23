@@ -18,7 +18,7 @@ Students learn:
 # Resources
 
 * 8 copies of the [Program cards](program_cards.pdf),
-* 15 [copies of the cheat sheet](../cheatsheet.html),
+* 15 [copies of the cheat sheet](cheatsheet.pdf),
 * Pens and paper.
 
 ## What do we need for a reaction timer? : 20 minutes
@@ -72,6 +72,27 @@ Students work in pairs to convert the comments into Python code. They can refere
 
 Ask them to start at the top and to test each line of code at a time by saving and running the code.
 
+## Additional Codes
+
+Depending on student's knowledge, the following codes may not be known:
+
+~~~ python
+import time
+#store the current time in a variable
+current_time = time.time()
+
+import random
+
+#make a random number between 1 and 10, and store in a variable
+random_num = random.randint(1,10)
+
+#sleep for the random time
+time.sleep(random_num)
+
+#wait for the user to press the enter key
+raw_input()
+~~~
+
 ## Reference code
 
 ***reaction.py
@@ -89,10 +110,6 @@ Now it's time to run the competition! To save time, we'll play a 'sudden death' 
 Ask all pairs to test each other. The winners then play against each other. A class of 30 should only need 5 tests to find the overall winner.
 
 You can ask at the end how to make the competition fairer, as the ways that the students come up with will probably be fairly straight forward to add to our program. For example taking 3 scores and making an average gets rid of the bad luck element.
-
-# Homework
-
-todo
 
 # Outcome
 
