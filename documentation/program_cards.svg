@@ -13,7 +13,7 @@
    height="1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="program_cards.svg">
   <defs
      id="defs4" />
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.36036097"
-     inkscape:cx="-435.15211"
-     inkscape:cy="470.33881"
+     inkscape:zoom="0.70817387"
+     inkscape:cx="84.457137"
+     inkscape:cy="529.62346"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -123,7 +123,7 @@
          id="tspan3757-1-2"
          x="558.46783"
          y="249.54036"
-         style="font-size:36px">get user input</tspan></text>
+         style="font-size:36px">wait for input</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985-8"
@@ -151,7 +151,7 @@
          id="tspan3757-1-6"
          x="558.00659"
          y="392.35199"
-         style="font-size:36px">store</tspan></text>
+         style="font-size:36px">=</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985-77"
@@ -182,7 +182,7 @@
            y="569.95508"
            x="176.04288"
            id="tspan3757-2-2"
-           sodipodi:role="line">loop</tspan></text>
+           sodipodi:role="line">subtract</tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text3755-1-5-0"
@@ -194,7 +194,7 @@
            y="575.86493"
            x="558.13458"
            id="tspan3757-1-2-4"
-           sodipodi:role="line">if</tspan></text>
+           sodipodi:role="line">=</tspan></text>
       <rect
          ry="19.788019"
          y="501.46417"
@@ -311,6 +311,6 @@
          id="tspan3757-2-2-5-1-2"
          x="175.40018"
          y="678.73346"
-         style="font-size:36px">subtract</tspan></text>
+         style="font-size:36px">print</tspan></text>
   </g>
 </svg>

@@ -10,10 +10,10 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1400.5751"
-   height="760.00562"
+   height="920.00562"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="reaction_code_cards.svg">
   <defs
      id="defs4" />
@@ -25,10 +25,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.50962737"
-     inkscape:cx="631.66194"
-     inkscape:cy="245.82841"
+     inkscape:cx="867.1281"
+     inkscape:cy="327.33969"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4009-6"
      showgrid="true"
      inkscape:window-width="1440"
      inkscape:window-height="876"
@@ -47,7 +47,7 @@
        enabled="true"
        snapvisiblegridlinesonly="true"
        originx="721.01255px"
-       originy="-480.99772px" />
+       originy="-320.99772px" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -87,7 +87,7 @@
            y="99.096893"
            x="177.41048"
            id="tspan3757"
-           sodipodi:role="line">get current time</tspan></text>
+           sodipodi:role="line">=</tspan></text>
     </g>
     <g
        id="g4014"
@@ -171,11 +171,11 @@
          x="558.00659"
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
          xml:space="preserve"><tspan
-           style="font-size:36px"
+           style="font-size:36px;fill:#0000ff"
            y="392.35199"
            x="558.00659"
            id="tspan3757-1-6"
-           sodipodi:role="line">store</tspan></text>
+           sodipodi:role="line">start_time</tspan></text>
       <rect
          ry="19.788019"
          y="321.18109"
@@ -187,7 +187,7 @@
     </g>
     <g
        id="g3098"
-       transform="translate(-736.37615,-315.3924)">
+       transform="translate(-736.37615,-313.3924)">
       <text
          sodipodi:linespacing="125%"
          id="text3755-8-8-3"
@@ -199,7 +199,7 @@
            y="675.43945"
            x="175.44237"
            id="tspan3757-2-2-5"
-           sodipodi:role="line">get user input</tspan></text>
+           sodipodi:role="line">wait for input</tspan></text>
       <rect
          ry="19.788019"
          y="607.75458"
@@ -211,7 +211,7 @@
     </g>
     <g
        id="g3093"
-       transform="translate(-1118.7938,-158.88226)">
+       transform="translate(-1118.7938,3.11774)">
       <text
          sodipodi:linespacing="125%"
          id="text3755-1-5-0-7"
@@ -254,11 +254,12 @@
            y="-119.41293"
            x="159.22034"
            id="tspan3105"
-           sodipodi:role="line">start_time</tspan></text>
+           sodipodi:role="line"
+           style="fill:#000000">get current time</tspan></text>
     </g>
     <g
        id="g4009-6"
-       transform="translate(-378.11814,418.73419)">
+       transform="translate(-378.11814,580.73419)">
       <rect
          ry="19.788019"
          y="31.627991"
@@ -277,7 +278,8 @@
            y="99.096893"
            x="177.41048"
            id="tspan3757-3"
-           sodipodi:role="line">get current time</tspan></text>
+           sodipodi:role="line"
+           style="fill:#0000ff">end_time</tspan></text>
     </g>
     <rect
        style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
@@ -285,21 +287,21 @@
        width="318.57736"
        height="116.54179"
        x="0"
-       y="450.36218"
+       y="612.36218"
        ry="19.788019" />
     <text
        xml:space="preserve"
        style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
        x="159.22034"
-       y="518.58704"
+       y="680.58704"
        id="text3103-3"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3105-4"
          x="159.22034"
-         y="518.58704">subtract</tspan></text>
+         y="680.58704">subtract</tspan></text>
     <g
-       transform="translate(360,641.45821)"
+       transform="translate(360,801.45821)"
        id="g3931-2-0">
       <rect
          ry="19.788019"
@@ -343,6 +345,76 @@
            x="159.22034"
            id="tspan3105-2"
            sodipodi:role="line">&quot;GO!&quot;</tspan></text>
+    </g>
+    <g
+       id="g3073-0"
+       transform="translate(-1118.7938,-28.81891)" />
+    <g
+       id="g4009-3"
+       transform="translate(-378.11815,420.73419)">
+      <rect
+         ry="19.788019"
+         y="31.627991"
+         x="18.118143"
+         height="116.54179"
+         width="318.57736"
+         id="rect2985-5"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3755-4"
+         y="99.096893"
+         x="177.41048"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
+         xml:space="preserve"><tspan
+           y="99.096893"
+           x="177.41048"
+           id="tspan3757-34"
+           sodipodi:role="line">=</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3755-1-9-6"
+       y="523.53308"
+       x="-560.78717"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
+       xml:space="preserve"><tspan
+         style="font-size:36px;fill:#0000ff"
+         y="523.53308"
+         x="-560.78717"
+         id="tspan3757-1-6-2"
+         sodipodi:role="line">end_time</tspan></text>
+    <rect
+       ry="19.788019"
+       y="452.36218"
+       x="-720"
+       height="116.54179"
+       width="318.57736"
+       id="rect2985-7-0-0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <g
+       id="g3931-4"
+       transform="translate(-1e-5,640)">
+      <rect
+         ry="19.788019"
+         y="-187.63782"
+         x="0"
+         height="116.54179"
+         width="318.57736"
+         id="rect2985-8-6-23"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3103-0"
+         y="-119.41293"
+         x="159.22034"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1;stroke:none;font-family:FreeSans;-inkscape-font-specification:FreeSans"
+         xml:space="preserve"><tspan
+           y="-119.41293"
+           x="159.22034"
+           id="tspan3105-7"
+           sodipodi:role="line"
+           style="fill:#000000">get current time</tspan></text>
     </g>
   </g>
 </svg>
