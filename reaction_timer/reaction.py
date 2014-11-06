@@ -15,7 +15,7 @@ print("GO!")
 start_time = time.time()
 
 #wait for the subject to press the 'enter key'
-raw_input()
+input()
 
 #work out how long they took by subtracting the start_time now from the time now
 reaction_time = time.time() - start_time
