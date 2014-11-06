@@ -90,7 +90,7 @@ random_num = random.randint(1,10)
 time.sleep(random_num)
 
 #wait for the user to press the enter key
-raw_input()
+input()
 ~~~
 
 ## Reference code
